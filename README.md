@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fb1ebe56-e765-4a6e-9352-425e18e1f2a3)# # 4.Execution_of_NetworkCommands(TRACEROUTE COMMAND)
+## TRACEROUTE
 ## AIM :Use of Network commands in Real Time environment
 ## Software : Command Prompt And Network Protocol Analyzer
 ## Procedure: To do this EXPERIMENT- follows these steps:

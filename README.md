@@ -1,4 +1,4 @@
-# # 4.Execution_of_NetworkCommands(TRACEROUTE COMMAND)
+![image](https://github.com/user-attachments/assets/fb1ebe56-e765-4a6e-9352-425e18e1f2a3)# # 4.Execution_of_NetworkCommands(TRACEROUTE COMMAND)
 ## AIM :Use of Network commands in Real Time environment
 ## Software : Command Prompt And Network Protocol Analyzer
 ## Procedure: To do this EXPERIMENT- follows these steps:
@@ -25,3 +25,16 @@ This commands includes
 <BR>
 • Other IP Commands e.g. show ip route etc.
 <BR>
+
+## PROGRAM :
+```
+from scapy.all import*
+target = ["www.google.com"]
+result, unans = traceroute(target,maxttl=32)
+print(result,unans)
+```
+## OUTPUT :
+![Screenshot 2025-05-02 144913](https://github.com/user-attachments/assets/fa184a2c-88b5-4cfd-b2d9-88c1e768b7c5)
+
+## RESULT :
+Thus the socket for HTTP for web page upload and download created and Executed
